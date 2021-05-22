@@ -8,7 +8,7 @@ Crie um arquivo .tf para adicionar o modulo no seu projeto como o exemplo a baix
 
 ```hcl
 module "ec2" {
-  source = "github.com/marcelocarminati/terraform-module-ec2?ref=v.0.1"
+  source = "github.com/marcelocarminati/terraform-module-ec2?ref=v.1.0"
 
   ami                     = var.ami
   disable_api_termination = var.disable_api_termination
